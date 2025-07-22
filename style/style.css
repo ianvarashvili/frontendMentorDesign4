@@ -128,3 +128,13 @@ td:last-child {
  tr:last-child td {
     border-bottom: none; 
 }
+@media screen and (max-width: 375px) {
+   .maindiv {
+        width: 90%;
+        padding: 20px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
